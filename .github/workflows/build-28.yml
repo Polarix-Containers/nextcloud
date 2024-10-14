@@ -6,8 +6,8 @@ on:
     branches:
       - main
     paths:
-      - '.github/workflows/build-29.yml'
-      - 'unprivileged-mainline/**'
+      - '.github/workflows/build-28.yml'
+      - '28/**'
   schedule:
     # Build the image daily
     - cron: '15 0 * * *'
