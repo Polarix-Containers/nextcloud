@@ -1,4 +1,4 @@
-name: Build 28
+name: Build 31
 
 on:
   workflow_dispatch:
@@ -6,8 +6,8 @@ on:
     branches:
       - main
     paths:
-      - '.github/workflows/build-28.yml'
-      - '28/**'
+      - '.github/workflows/build-31.yml'
+      - '31/**'
   schedule:
     # Build the image daily
     - cron: '15 0 * * *'
@@ -15,7 +15,7 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: polarix-containers/nextcloud
-  TAG: 28
+  TAG: 31
 
 jobs:
   build:
@@ -52,7 +52,7 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
             ${{ env.TAG }}
-            old-stable
+            latest
 
       - name: Build and push Docker image
         id: build-and-push
