@@ -1,8 +1,8 @@
 # nextcloud
 
+![Build 31, scan & push](https://github.com/Polarix-Containers/nextcloud/actions/workflows/build-31.yml/badge.svg)
 ![Build 30, scan & push](https://github.com/Polarix-Containers/nextcloud/actions/workflows/build-30.yml/badge.svg)
 ![Build 29, scan & push](https://github.com/Polarix-Containers/nextcloud/actions/workflows/build-29.yml/badge.svg)
-![Build 28, scan & push](https://github.com/Polarix-Containers/nextcloud/actions/workflows/build-28.yml/badge.svg)
 
 ### Features & usage
 - Built on the [official image](https://github.com/nextcloud/docker) to be used as a drop-in replacement. Comes with regular rebuilds and hardened_malloc which are standard among Polarix containers.
