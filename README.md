@@ -1,5 +1,6 @@
 # nextcloud
 
+![Build 32, scan & push](https://github.com/Polarix-Containers/nextcloud/actions/workflows/build-32.yml/badge.svg)
 ![Build 31, scan & push](https://github.com/Polarix-Containers/nextcloud/actions/workflows/build-31.yml/badge.svg)
 ![Build 30, scan & push](https://github.com/Polarix-Containers/nextcloud/actions/workflows/build-30.yml/badge.svg)
 
