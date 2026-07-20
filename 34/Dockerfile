@@ -1,4 +1,4 @@
-ARG VERSION=31
+ARG VERSION=34
 
 FROM nextcloud:${VERSION}-fpm-alpine
 
