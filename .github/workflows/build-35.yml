@@ -1,4 +1,4 @@
-name: Build 32
+name: Build 35
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
       - main
     paths:
       - '.github/workflows/build-32.yml'
-      - '32/**'
+      - '35/**'
   schedule:
     # Build the image daily
     - cron: '15 0 * * *'
